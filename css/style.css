@@ -9,3 +9,26 @@ ul{
 ol{
   list-style-type: upper-latin;
 }
+
+p{
+  text-align: justify;
+}
+
+.vasenylä{
+  float: left;
+}
+
+.oikeeala{
+  float: right;
+}
+
+.blockquote{
+  width: 300px;
+  font-size: 1.25em;
+  float: right;
+  border-left: 15px #770000 solid;
+  padding: 0.5em 1em;
+  color: #AAFFFF;
+  margin: 1em;
+  background-color: #000033;
+}

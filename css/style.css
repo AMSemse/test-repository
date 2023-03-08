@@ -18,9 +18,20 @@ ol{
   float: left;
 }
 
-.oikeeala{
+.oikee{
   float: right;
+  margin: 0;
 }
+
+@media(max-width: 640px){
+  .oikee{
+    float: initial;
+    width: 100%;
+    height: auto;
+  }
+}
+
+
 
 .blockquote{
   width: 300px;
@@ -44,4 +55,40 @@ ol{
   border: 5px black solid;
   width: 600px;
 
+}
+
+.fifth1{
+  background-color: #AAFFFF;
+  height: 10vh;
+}
+.fifth2{
+  background-color: #770000;
+  height: 25vh;
+}
+.fifth3{
+  background-color: #000033;
+  height: 35vh;
+}
+nav span.title{
+  font-size: 3em;
+  color: gold;
+  transition: 1s ease;
+}
+@media(max-width: 470px){
+  nav span.title{
+    font-size: 2em;
+  }
+}
+@media(min-width: 900px){
+  nav span.title{
+    font-size: 6em;
+  }
+}
+
+.keski1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding: 150px 0 0 0;
 }
